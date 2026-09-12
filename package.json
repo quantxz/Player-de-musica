@@ -4,9 +4,18 @@
   "description": "Meu player de músicas",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
   },
   "devDependencies": {
-    "electron": "^latest"
+    "electron": "latest",
+    "electron-builder": "latest"
+  },
+  "build": {
+    "appId": "com.anderson.meuplayer",
+    "productName": "Meu Player",
+    "win": {
+      "target": "nsis"
+    }
   }
 }
