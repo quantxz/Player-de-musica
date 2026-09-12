@@ -81,7 +81,7 @@ progress.addEventListener("input", () => {
 
 volume.addEventListener("input", () => {
 
-    audio.volume = volume.value * 0.82;
+    audio.volume = volume.value * 0.11;
 
     const porcentagem = Math.round(volume.value * 100);
 

@@ -14,6 +14,7 @@
   "build": {
     "appId": "com.anderson.meuplayer",
     "productName": "Meu Player",
+    "icon": "favicon.ico",
     "win": {
       "target": "nsis"
     }
